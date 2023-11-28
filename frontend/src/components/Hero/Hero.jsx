@@ -2,6 +2,8 @@ import font from '../../assets/images/font.png'
 import Typewriter from 'typewriter-effect';
 import instagram from '../../assets/icons/instagram.png'
 import linkedin from '../../assets/icons/linkedin.png'
+import github from '../../assets/icons/github.png'
+import { FaDownload } from '../../utils/icons'
 
 export const Hero = () => {
   return (
@@ -18,15 +20,21 @@ export const Hero = () => {
           />
         </span>
 
-        <figure className='flex flex-row gap-6 mt-16'>
+        <figure className='flex flex-row gap-6 text-white mt-20'>
           <img src={linkedin} width={30} alt="linkedin" className='cursor-pointer' />
           <img src={instagram} width={30} alt="instagram" className='cursor-pointer' />
+          <img src={github} width={30} alt="github" className='cursor-pointer' />
         </figure>
+        
+        <button className='flex flex-row items-center font-medium gap-2 px-6 py-2.5 mt-10 rounded-md bg-gradient-to-r from-pink-600 via-red-500 to-red-400'>
+          <FaDownload />Download CV
+        </button>
         
       </section>
       <section className='flex flex-row justify-center mt-14 xl:mt-0'>
         <img src={font} width={700} alt='image' />
       </section>
+
     </section>
   )
 }

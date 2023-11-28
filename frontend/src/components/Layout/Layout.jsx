@@ -1,6 +1,6 @@
 import { Hero } from "../Hero/Hero"
 import { Navbar } from "../Navbar/Navbar"
-import { Skills_experience } from "../Skills_experience/skills_experience"
+import { Skills_experience } from "../SkillsExperience/Skills_experience"
 
 export const Layout = () => {
   return (
