@@ -1,11 +1,13 @@
 import './App.css'
+import { Layout } from './components/Layout/Layout'
 
 function App() {
 
   return (
-    <>
-      <h1 className='text-3xl text-blue-500 font-semibold'>React portfolio</h1>
-    </>
+    <div className='w-full h-screen bg-black'>
+      <img className='absolute' src='https://res.cloudinary.com/dtwzcfryn/image/upload/v1701172884/fondo_portfolio_x5yj8e.jpg' alt='' />
+      <Layout />
+    </div>
   )
 }
 
