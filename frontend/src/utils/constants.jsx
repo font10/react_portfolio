@@ -33,7 +33,6 @@ import {
   blog,
   ecommerce,
   montana,
-  notes,
   portfolio
 } from '../assets/images/index'
 
@@ -139,17 +138,15 @@ export const projects = [
     name: 'Flutter Boilerplate Bloc Auth & Crud Firestore', 
     category: 'Frontend', 
     image: auth_crud_bloc, 
-    github: '', 
-    web: '', 
+    github: 'https://github.com/font10/flutter_boilerplate_bloc_auth_crud_firebase', 
+    web: 'https://drive.google.com/file/d/15z_7_RsKaCtL0wFCqnz54u8IDPfaWAQI/view', 
     tech: [flutter, firebase, firestore] 
-  },
-  { id: 7, 
-    name: 'Flutter Notes Firestore', 
-    category: 'Frontend', 
-    image: notes, 
-    github: '', 
-    web: '', 
-    tech: [flutter, firebase, firestore] 
-  },
+  }
 ]
 
+export const inputsContact = [
+  { id: 1, label: "Nombre", type: "text", name: "nombre", placeholder: "Nombre" }, 
+  { id: 2, label: "Apellido", type: "text", name: "apellido", placeholder: "Apellido" },
+  { id: 3, label: "Tema", type: "text", name: "tema", placeholder: "Tema" },
+  { id: 4, label: "Mensaje", type: "text", name: "mensaje", placeholder: "Mensaje" },
+]

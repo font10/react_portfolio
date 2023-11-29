@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-image: url("https://res.cloudinary.com/dtwzcfryn/image/upload/v1701172884/fondo_portfolio_x5yj8e.jpg");
+}

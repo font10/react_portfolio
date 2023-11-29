@@ -1,5 +1,5 @@
-import { Tabs } from "./Tabs/Tabs";
+import { ProjectList } from "./ProjectList";
 
 export {
-  Tabs
+  ProjectList
 }

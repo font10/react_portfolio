@@ -10,7 +10,7 @@ export const Hero = () => {
     <section className='flex flex-col lg:flex-row items-center gap-3 justify-around mt-10 lg:mt-44'>
       <section className="flex flex-col items-center lg:items-start w-full text-white">
         <p className='font-lato font-extrabold text-6xl bg-gradient-to-r from-pink-600 via-red-500 to-red-400 inline-block text-transparent bg-clip-text'>Hola, soy</p>
-        <span className='font-lato font-extrabold text-6xl mt-6'>
+        <span className='font-lato font-extrabold text-3xl md:text-4xl lg:text-6xl mt-6'>
           <Typewriter
             options={{
               strings: ['David Font', 'Frontend Dev', 'MERN Stack Dev'],
