@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Habilidades } from "./Habilidades";
+import { Studies, Skills, Experience } from "./Content/index";
 
 export const Tabs = () => {
   const [tab, setTabs] = useState(0);
@@ -37,13 +37,13 @@ export const Tabs = () => {
 
       <section id="content" className="mt-4">
         <article className={`${tab === 0 ? "block" : "hidden"}`}>
-          <Habilidades />
+          <Skills />
         </article>
         <article className={`${tab === 1 ? "block" : "hidden"}`}>
-          If you click this tab then your life will be better
+          <Experience />
         </article>
         <article className={`${tab === 2 ? "block" : "hidden"}`}>
-          Know your roles
+          <Studies />
         </article>
       </section>
     </section>

@@ -1,11 +1,16 @@
 import './App.css'
 import { Layout } from './components/Layout/Layout'
+import background from './assets/images/background_portfolio.jpg'
 
 function App() {
 
   return (
-    <div className='w-full h-screen bg-black'>
-      <img className='absolute' src='https://res.cloudinary.com/dtwzcfryn/image/upload/v1701172884/fondo_portfolio_x5yj8e.jpg' alt='' />
+    <div className='w-full h-screen'>
+      <img 
+        className='absolute bg-repeat' 
+        src={background}
+        alt='background' 
+      />
       <Layout />
     </div>
   )

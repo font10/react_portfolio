@@ -1,6 +1,4 @@
-import { Hero } from "../Hero/Hero"
-import { Navbar } from "../Navbar/Navbar"
-import { Skills_experience } from "../SkillsExperience/Skills_experience"
+import { Hero, Navbar, Projects, Services, Skills_experience } from '../index'
 
 export const Layout = () => {
   return (
@@ -8,6 +6,8 @@ export const Layout = () => {
       <Navbar />
       <Hero />
       <Skills_experience />
+      <Services />
+      <Projects />
     </section>
   )
 }

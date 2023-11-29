@@ -11,7 +11,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'fondo': "url('./src/assets/images/fondo_portfolio.jpg')",
+        'fondo': "url('./src/assets/images/background_portfolio.jpg')",
       }
     },
   },
