@@ -102,7 +102,8 @@ export const projects = [
     image: portfolio,
     links: [
       { img: github, link: 'https://github.com/font10/react_portfolio' },
-      { img: eye, link: 'https://react-portfolio-5xoj.onrender.com/' }
+      { img: eye, link: 'https://react-portfolio-5xoj.onrender.com/' },      
+      { img: figma, link: 'https://www.figma.com/file/m3W2PTMuKGIKRLOAiqR6mp/React-Portfolio?type=design&node-id=0-1&mode=design&t=6DIo6bOW7jpRZ7oa-0' },
     ],
     tech: [react, tailwind, node, express] 
   },
@@ -122,7 +123,8 @@ export const projects = [
     image: blog, 
     links: [
       { img: github, link: 'https://github.com/stars/font10/lists/mern-blog-project' },
-      { img: eye, link: 'https://blog-frontend-0zdd.onrender.com/' }
+      { img: eye, link: 'https://blog-frontend-0zdd.onrender.com/' },      
+      { img: figma, link: 'https://www.figma.com/file/m3W2PTMuKGIKRLOAiqR6mp/React-Portfolio?type=design&node-id=0-1&mode=design&t=6DIo6bOW7jpRZ7oa-0' },
     ],
     tech: [react, redux, tailwind, node, express, mongo, jwt, react_router_dom, cloudinary] 
   },
@@ -132,7 +134,7 @@ export const projects = [
     image: ecommerce, 
     links: [
       { img: github, link: 'https://github.com/stars/font10/lists/mern-ecommerce' },
-      { img: eye, link: 'https://mern-ecommerce-frontend-oj36.onrender.com/' }
+      { img: eye, link: 'https://mern-ecommerce-frontend-oj36.onrender.com/' },
     ],
     tech: [react, redux, tailwind, node, express, mongo, jwt, react_router_dom, cloudinary] 
   },
