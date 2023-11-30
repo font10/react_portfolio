@@ -1,7 +1,7 @@
 
 export const Navbar = () => {
   return (
-    <nav className="bg-transparent border-gray-200 dark:bg-gray-900">
+    <nav className="bg-transparent">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-0 py-4">
         <header className="flex items-center">
           <span className="text-4xl font-extrabold text-white font-lato">david</span>
