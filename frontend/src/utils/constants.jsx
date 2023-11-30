@@ -4,11 +4,13 @@ import {
   design_icon,
   development_icon,
   express,
+  eye,
   figma,
   firebase,
   firestore,
   flutter,
   git,
+  github,
   html5,
   jest,
   js,
@@ -89,57 +91,69 @@ export const studies = [
 ]
 
 export const services = [
-  { id: 1, name: "Diseño", image: design_icon, description: 'Aliquam nec sem sit amet placerat auctor et ac mi. Curabitur venenatis max.' },
-  { id: 2, name: "Desarrollo", image: development_icon, description: 'Aliquam nec sem sit amet placerat auctor et ac mi. Curabitur venenatis max.' },
+  { id: 1, name: "Diseño", icon: design_icon, description: 'Aliquam nec sem sit amet placerat auctor et ac mi. Curabitur venenatis max.' },
+  { id: 2, name: "Desarrollo", icon: development_icon, description: 'Aliquam nec sem sit amet placerat auctor et ac mi. Curabitur venenatis max.' },
 ]
 
 export const projects = [
   { id: 1, 
     name: 'React Portfolio', 
     category: 'Frontend', 
-    image: portfolio, 
-    github: '', 
-    web: '', 
+    image: portfolio,
+    links: [
+      { img: github, link: 'https://github.com/font10/react_portfolio' },
+      { img: eye, link: '' }
+    ],
     tech: [react, tailwind, node, express] 
   },
   { id: 2, 
     name: 'Mern Boilerplate', 
     category: 'Frontend', 
     image: mern_boilerplate, 
-    github: 'https://github.com/font10/mern_boilerplate', 
-    web: 'https://mern-boilerplate-frontend.onrender.com/', 
+    links: [
+      { img: github, link: 'https://github.com/font10/mern_boilerplate' },
+      { img: eye, link: 'https://mern-boilerplate-frontend.onrender.com/' }
+    ],
     tech: [react, redux, tailwind, node, express, mongo, vitest, jest, supertest, yup, jwt, react_testing_library, react_hook_form, react_router_dom, cloudinary, react_toastify] 
   },
   { id: 3, 
     name: 'Mern Blog App', 
     category: 'Mern Stack', 
     image: blog, 
-    github: 'https://github.com/stars/font10/lists/mern-blog-project', 
-    web: 'https://blog-frontend-0zdd.onrender.com/', 
+    links: [
+      { img: github, link: 'https://github.com/stars/font10/lists/mern-blog-project' },
+      { img: eye, link: 'https://blog-frontend-0zdd.onrender.com/' }
+    ],
     tech: [react, redux, tailwind, node, express, mongo, jwt, react_router_dom, cloudinary] 
   },
   { id: 4, 
     name: 'Mern Basic Ecommerce App', 
     category: 'Mern Stack', 
     image: ecommerce, 
-    github: 'https://github.com/stars/font10/lists/mern-ecommerce', 
-    web: 'https://mern-ecommerce-frontend-oj36.onrender.com/', 
+    links: [
+      { img: github, link: 'https://github.com/stars/font10/lists/mern-ecommerce' },
+      { img: eye, link: 'https://mern-ecommerce-frontend-oj36.onrender.com/' }
+    ],
     tech: [react, redux, tailwind, node, express, mongo, jwt, react_router_dom, cloudinary] 
   },
   { id: 5, 
     name: 'Mern Recipe App', 
     category: 'Mern Stack', 
     image: montana, 
-    github: 'https://github.com/stars/font10/lists/umai-project', 
-    web: 'https://umai.onrender.com/', 
+    links: [
+      { img: github, link: 'https://github.com/stars/font10/lists/umai-project' },
+      { img: eye, link: 'https://umai.onrender.com/' }
+    ],
     tech: [react, redux, tailwind, node, express, mongo, jwt, react_router_dom, cloudinary] 
   },
   { id: 6, 
     name: 'Flutter Boilerplate Bloc Auth & Crud Firestore', 
     category: 'Frontend', 
     image: auth_crud_bloc, 
-    github: 'https://github.com/font10/flutter_boilerplate_bloc_auth_crud_firebase', 
-    web: 'https://drive.google.com/file/d/15z_7_RsKaCtL0wFCqnz54u8IDPfaWAQI/view', 
+    links: [
+      { img: github, link: 'https://github.com/font10/flutter_boilerplate_bloc_auth_crud_firebase' },
+      { img: eye, link: 'https://drive.google.com/file/d/15z_7_RsKaCtL0wFCqnz54u8IDPfaWAQI/view' }
+    ],
     tech: [flutter, firebase, firestore] 
   }
 ]

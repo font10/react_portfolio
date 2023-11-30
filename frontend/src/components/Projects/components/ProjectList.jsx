@@ -1,7 +1,6 @@
 import { useState } from "react"
 import { projects } from "../../../utils/constants"
-import { eye, pagination_page_off, pagination_page_on } from "../../../assets/icons"
-import { github } from "../../../assets/icons"
+import { pagination_page_off, pagination_page_on } from "../../../assets/icons"
 
 export const ProjectList = () => {
   const [min, setMin] = useState(0)
@@ -27,20 +26,17 @@ export const ProjectList = () => {
                 className="w-auto h-48 rounded-md group" 
               />
               <div className="absolute flex flex-row gap-3 justify-center items-center group-hover:bg-gray-400 w-full h-48 -mt-48 rounded-md opacity-50 transition-opacity duration-700 group-hover:opacity-70">
-                <a href={project.github}>
-                  <img 
-                    src={github} 
-                    alt=""  
-                    className="hidden group-hover:block group-hover:bg-opacity-100 cursor-pointer bg-black rounded-full border-2 border-gray-300 p-4 h-16 w-16"
-                  />
-                </a>
-                <a href={project.web}>
-                  <img 
-                    src={eye} 
-                    alt="" 
-                    className="hidden group-hover:block group-hover:bg-opacity-100 cursor-pointer bg-black rounded-full border-2 border-gray-300 p-4 h-16 w-16"
-                  />
-                </a>
+                {
+                  project?.links.map(link => (
+                    <a key={crypto.randomUUID()} href={link?.link} target="_blank" rel="noopener noreferrer">
+                      <img 
+                        src={link.img} 
+                        alt=""  
+                        className="hidden group-hover:block group-hover:bg-opacity-100 cursor-pointer bg-black rounded-full border-2 border-gray-300 p-4 h-16 w-16"
+                      />
+                    </a>
+                  ))
+                }
               </div>
 
               <section className="mt-3">

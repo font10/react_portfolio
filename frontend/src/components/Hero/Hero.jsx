@@ -1,7 +1,7 @@
 import font from '../../assets/images/font.png'
 import Typewriter from 'typewriter-effect';
 import { github, linkedin } from '../../assets/icons/index'
-import { FaDownload } from '../../utils/icons'
+import { FaFilePdf } from '../../utils/icons'
 
 export const Hero = () => {
   return (
@@ -19,13 +19,17 @@ export const Hero = () => {
         </span>
 
         <figure className='flex flex-row gap-6 text-white mt-20'>
-          <img src={linkedin} width={30} alt="linkedin" className='cursor-pointer' />
-          <img src={github} width={30} alt="github" className='cursor-pointer' />
+          <a href='https://www.linkedin.com/in/david-font-484b8196?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target="_blank" rel="noopener noreferrer">
+            <img src={linkedin} width={30} alt="linkedin" className='cursor-pointer' />
+          </a>
+          <a href='https://github.com/font10?tab=repositories' target="_blank" rel="noopener noreferrer">
+            <img src={github} width={30} alt="github" className='cursor-pointer' />
+          </a>
         </figure>
         
-        <button className='flex flex-row items-center font-medium gap-2 px-6 py-2.5 mt-10 rounded-md bg-gradient-to-r from-pink-600 via-red-500 to-red-400'>
-          <FaDownload />Download CV
-        </button>
+        <a href='https://drive.google.com/file/d/1K71bRp2Hjp7Yh6Ff0qXyARF24pYCWqms/view?usp=sharing' download={true} className='flex flex-row items-center font-medium gap-2 px-6 py-2.5 mt-10 rounded-md bg-gradient-to-r from-pink-600 via-red-500 to-red-400'>
+          <FaFilePdf />Ver currículum
+        </a>
         
       </section>
       <section className='flex flex-row justify-center w-96  lg:w-[700px] mt-14 xl:mt-0'>

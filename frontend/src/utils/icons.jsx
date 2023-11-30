@@ -1,5 +1,5 @@
-import { FaDownload } from "react-icons/fa";
+import { FaFilePdf } from "react-icons/fa";
 
 export {
-  FaDownload
+  FaFilePdf
 }
