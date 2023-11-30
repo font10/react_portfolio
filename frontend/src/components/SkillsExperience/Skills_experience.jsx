@@ -1,5 +1,4 @@
-import { Sobre_mi } from "./components/Sobre_mi";
-import { Tabs } from "./components/Tabs/Tabs";
+import { Sobre_mi, Tabs } from "./components/index"
 
 export const Skills_experience = () => {
 

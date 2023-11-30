@@ -64,7 +64,7 @@ export const habs = [
 ]
 
 export const experience = [
-  { id: 13, date: "Abr 2022 - Jun 2022", position: "React Frontend Developer", company: 'Protecbox' },
+  { id: 13, date: "Abr 2023 - Jun 2023", position: "React Frontend Developer", company: 'Protecbox' },
   { id: 12, date: "Mar 2022 - Oct 2022", position: "Frontend Júnior", company: 'Nexus Geographics' },
   { id: 11, date: "Mar 2021 - Set 2021", position: "Oficial 1a Taller Radio", company: 'Generalitat de Catalunya' },
   { id: 10, date: "Mar 2020 - Set 2020", position: "Oficial 1a Taller Radio", company: 'Generalitat de Catalunya' },
@@ -91,8 +91,8 @@ export const studies = [
 ]
 
 export const services = [
-  { id: 1, name: "Diseño", icon: design_icon, description: 'Aliquam nec sem sit amet placerat auctor et ac mi. Curabitur venenatis max.' },
-  { id: 2, name: "Desarrollo", icon: development_icon, description: 'Aliquam nec sem sit amet placerat auctor et ac mi. Curabitur venenatis max.' },
+  { id: 1, name: "Diseño", icon: design_icon, description: 'Diseños web responsive, interactivos y buen diseño para el usuario' },
+  { id: 2, name: "Desarrollo", icon: development_icon, description: 'Desarrollo frontend y backend principalmente en Javascript entre otros' },
 ]
 
 export const projects = [

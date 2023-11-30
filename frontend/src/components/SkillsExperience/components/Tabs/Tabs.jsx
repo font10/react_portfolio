@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Studies, Skills, Experience } from "./Content/index";
+import { Studies, Skills, Experience } from "../index";
 
 export const Tabs = () => {
   const [tab, setTabs] = useState(0);
