@@ -14,6 +14,10 @@ app.use(cors());
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
+app.get('/', (req, res) => {
+  res.send('<h1>Welcome to the API</h1>')
+})
+
 app.post("/", validation(emailSchema) ,async (req, res) => {
   const { nombre, apellido, asunto, mensaje } = req.body
   try {
