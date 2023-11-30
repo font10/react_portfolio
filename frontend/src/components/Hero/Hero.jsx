@@ -48,7 +48,7 @@ export const Hero = () => {
         </figure>
 
         <a
-          href="https://drive.google.com/file/d/1K71bRp2Hjp7Yh6Ff0qXyARF24pYCWqms/view?usp=sharing"
+          href="https://drive.google.com/file/d/1q3_4rGSmxqcNjsZAhtW91fS5rpTdeVLU/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           download={true}
