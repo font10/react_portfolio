@@ -2,7 +2,7 @@ import { ContactForm } from "./components/ContactForm"
 
 export const Contact = () => {
   return (
-    <section className="flex flex-col w-10/12 lg:flex-row justify-between mt-16 lg:mt-56">
+    <section className="flex flex-col lg:flex-row justify-between mt-16 lg:mt-56 pb-24">
       <section>
         <header className="flex flex-row items-center gap-1">
           <h1 className="text-4xl font-bold font-lato text-white">Contáctame</h1>
@@ -14,7 +14,7 @@ export const Contact = () => {
       </section>
 
       <section className="flex flex-row w-full lg:w-7/12 justify-center lg:justify-start gap-3 text-white text-3xl font-semibold mt-20 lg:mt-0">
-        Hola
+        <ContactForm />
       </section>
     </section>
   )

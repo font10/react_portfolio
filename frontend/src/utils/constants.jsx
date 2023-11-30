@@ -147,6 +147,6 @@ export const projects = [
 export const inputsContact = [
   { id: 1, label: "Nombre", type: "text", name: "nombre", placeholder: "Nombre" }, 
   { id: 2, label: "Apellido", type: "text", name: "apellido", placeholder: "Apellido" },
-  { id: 3, label: "Tema", type: "text", name: "tema", placeholder: "Tema" },
+  { id: 3, label: "Asunto", type: "text", name: "asunto", placeholder: "Asunto" },
   { id: 4, label: "Mensaje", type: "text", name: "mensaje", placeholder: "Mensaje" },
 ]

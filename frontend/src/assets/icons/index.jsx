@@ -14,6 +14,7 @@ import html5 from "./html5.png";
 import jest from './jest.png';
 import js from './js.png';
 import jwt from "./jwt.png";
+import linkedin from "./linkedin.png";
 import mern_boilerplate from "./mern_boilerplate_miniatura.png";
 import mongo from "./mongo.png";
 import multer from "./multer.png";
@@ -45,10 +46,11 @@ export {
   firestore,
   git,
   github,
+  html5,
   jest,
   js,
   jwt,
-  html5,
+  linkedin,
   mern_boilerplate,
   mongo,
   multer,
