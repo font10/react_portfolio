@@ -102,7 +102,7 @@ export const projects = [
     image: portfolio,
     links: [
       { img: github, link: 'https://github.com/font10/react_portfolio' },
-      { img: eye, link: '' }
+      { img: eye, link: 'https://react-portfolio-5xoj.onrender.com/' }
     ],
     tech: [react, tailwind, node, express] 
   },
