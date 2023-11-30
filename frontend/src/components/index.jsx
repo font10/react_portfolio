@@ -1,4 +1,5 @@
 import { Contact } from './Contact/Contact'
+import { Footer } from './Footer/Footer'
 import { Hero } from './Hero/Hero'
 import { InputField } from './InputField/InputField'
 import { Layout } from './Layout/Layout'
@@ -9,6 +10,7 @@ import { Skills_experience } from './SkillsExperience/Skills_experience'
 
 export { 
   Contact,
+  Footer,
   Hero,
   InputField,
   Layout,
