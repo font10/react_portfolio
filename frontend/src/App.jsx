@@ -1,10 +1,13 @@
 import './App.css'
-import { Layout } from './components/Layout/Layout'
+import { Layout } from './components/index'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
   return (
-    <div className='w-full h-screen'>      
+    <div className='w-full h-screen'>    
+      <ToastContainer />  
       <Layout />
     </div>
   )

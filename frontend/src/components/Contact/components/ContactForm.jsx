@@ -3,22 +3,30 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import { inputsContact } from "../../../utils/constants";
 import { InputField } from "../../InputField/InputField";
+import { sendEmailService } from "../../../services/email.api";
+import { getToast } from "../../../utils/functions";
 
 export const ContactForm = () => {
   const {
     register,
     handleSubmit,
     formState: { errors },
+    reset
   } = useForm({
     resolver: yupResolver(contactSchema),
   });
 
-  const onSubmit = async (data) => {
-    console.log(data);
+  const onSubmit = async (formInputs) => {
+    const res = await sendEmailService(formInputs)
+    console.log(res)
+    if(res.status === 200) {
+      getToast( 'success', res?.data?.message)
+      reset()
+    }
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="w-full">
+    <form onSubmit={handleSubmit(onSubmit)} className="w-full mt-2">
       <fieldset>
         <section className="flex flex-col sm:flex-col gap-3">
         {
