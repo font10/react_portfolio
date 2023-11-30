@@ -5,10 +5,7 @@ export const Tabs = () => {
   const [tab, setTabs] = useState(0);
 
   return (
-    <section 
-    data-aos="fade-left" 
-    data-aos-duration="500"
-    data-aos-easing="ease-in-out">
+    <section>
       <nav role="flex flex-row gap-3">
         <section className="flex flex-row">
           <tab
