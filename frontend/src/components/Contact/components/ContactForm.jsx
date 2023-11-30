@@ -28,21 +28,21 @@ export const ContactForm = () => {
     <form onSubmit={handleSubmit(onSubmit)} className="w-full mt-2">
       <fieldset>
         <section className="flex flex-col sm:flex-col gap-3">
-        {
-              inputsContact.map(input => (
-                <InputField
-                  key={input.id}
-                  id={input.id}
-                  label={input.label}
-                  name={input.name}
-                  placeholder={input.placeholder}
-                  type={input.type}
-                  error={errors[input.name]?.message}
-                  register ={register}
-                />
-              ))
-            } 
-            </section>
+          {
+            inputsContact.map(input => (
+              <InputField
+                key={input.id}
+                id={input.id}
+                label={input.label}
+                name={input.name}
+                placeholder={input.placeholder}
+                type={input.type}
+                error={errors[input.name]?.message}
+                register ={register}
+              />
+            ))
+          } 
+        </section>
         <button className="bg-gradient-to-r from-pink-600 via-red-500 to-red-400 text-white font-lato text-sm w-full font-semibold py-2.5 px-4 rounded-md mt-5">
           Enviar
         </button>
