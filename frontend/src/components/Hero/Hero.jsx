@@ -58,7 +58,7 @@ export const Hero = () => {
           Ver currículum
         </a>
       </section>
-      <section className="flex flex-row justify-center w-96  lg:w-[700px] mt-14 xl:mt-0">
+      <section className="flex flex-row justify-center w-64 lg:w-[700px] mt-14 xl:mt-0">
         <img src={font} alt="image" />
       </section>
     </section>
