@@ -15,7 +15,10 @@ export const ProjectList = () => {
 
   return (
     <section>
-      <section className="grid grid-cols-1 md:grid-cols-2 w-full gap-4">
+      <section className="grid grid-cols-1 md:grid-cols-2 w-full gap-4" 
+        data-aos="flip-right" 
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out">
         {
           projects
             .slice(min, max).map(project => (

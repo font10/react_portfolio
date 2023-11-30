@@ -5,7 +5,10 @@ export const Tabs = () => {
   const [tab, setTabs] = useState(0);
 
   return (
-    <section>
+    <section 
+    data-aos="fade-left" 
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out">
       <nav role="flex flex-row gap-3">
         <section className="flex flex-row">
           <tab
@@ -35,7 +38,7 @@ export const Tabs = () => {
         </section>        
       </nav>
 
-      <section id="content" className="mt-4">
+      <section id="content" className="mt-4" >
         <article className={`${tab === 0 ? "block" : "hidden"}`}>
           <Skills />
         </article>

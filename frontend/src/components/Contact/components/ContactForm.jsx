@@ -25,7 +25,11 @@ export const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="w-full mt-2">
+    <form onSubmit={handleSubmit(onSubmit)} className="w-full mt-2" 
+      data-aos="fade-up" 
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+    >
       <fieldset>
         <section className="flex flex-col sm:flex-col gap-3">
           {
