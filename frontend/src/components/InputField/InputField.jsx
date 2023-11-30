@@ -8,7 +8,7 @@ export const InputField = ({ id, label, name, placeholder, defaultValue, type, e
       ? <textarea name={name} placeholder={placeholder} rows={5} className="text-[14px] py-1.5 text-gray-900 mt-1 rounded-md px-5 border-2 border-gray-200 border-opacity-80" {...register(name)} />
       : <input type={type} defaultValue={defaultValue} name={name} placeholder={placeholder} className="text-[14px] py-1.5 text-gray-900 mt-1 rounded-md px-5 border-2 border-gray-200 border-opacity-80" {...register(name)} />
     }
-    <p className="text-red-500 text-sm font-medium">{error}</p>            
+    <p className="text-red-400 text-sm font-medium mt-1">{error}</p>            
   </div>
 );
 

@@ -20,6 +20,7 @@ app.get('/', (req, res) => {
 
 app.post("/", validation(emailSchema) ,async (req, res) => {
   const { nombre, apellido, asunto, mensaje } = req.body
+  console.log(req.body)
   try {
     await resend.emails.send({
       from: `${nombre + ' ' + apellido} ${process.env.RESEND_EMAIL}`,
