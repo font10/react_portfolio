@@ -12,7 +12,7 @@ export const Sobre_mi = () => {
           Desarrollador dedicado cerca de Gerona, Cataluña
         </p>
         <p className="mt-10 text-[14px] w-10/12 lg:w-96 text-gray-300 font-lato font-semibold'">
-          Como desarrollador junior, poseo habilidades tanto frontend como backend en JavaScript. 
+          Como desarrollador, poseo habilidades tanto frontend como backend en JavaScript. 
           Me destaco más en frontend, en el diseño y mantenimiento de sitios web responsivos que ofrecen una experiencia 
           de usuario fluida. <br /><br />
           

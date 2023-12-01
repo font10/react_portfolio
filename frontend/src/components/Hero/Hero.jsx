@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <section className="flex flex-col lg:flex-row items-center gap-3 justify-around mt-10 lg:mt-44">
       <section className="flex flex-col items-center lg:items-start w-full text-white">
-        <p className="font-lato font-extrabold text-6xl bg-gradient-to-r from-pink-600 via-red-500 to-red-400 inline-block text-transparent bg-clip-text">
+        <p className="font-lato font-extrabold text-6xl bg-gradient-to-r from-pink-600 hover:from-pink-500 via-red-500 hover:via-red-500 hover:to-orange-400 to-red-400 inline-block text-transparent bg-clip-text">
           Hola, soy
         </p>
         <span className="font-lato font-extrabold text-3xl md:text-4xl lg:text-6xl mt-6">
@@ -52,7 +52,7 @@ export const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
           download={true}
-          className="flex flex-row items-center font-medium gap-2 px-6 py-2.5 mt-10 rounded-md bg-gradient-to-r from-pink-600 via-red-500 to-red-400"
+          className="flex flex-row items-center font-medium gap-2 px-6 py-2.5 mt-10 rounded-md bg-gradient-to-r  hover:from-pink-500 hover:via-red-500 hover:to-orange-400 from-pink-600 via-red-500 to-red-400"
         >
           <FaFilePdf />
           Ver currículum

@@ -47,7 +47,7 @@ export const ContactForm = () => {
             ))
           } 
         </section>
-        <button className="bg-gradient-to-r from-pink-600 via-red-500 to-red-400 text-white font-lato text-sm w-full font-semibold py-2.5 px-4 rounded-md mt-5">
+        <button className="bg-gradient-to-r from-pink-600 hover:from-pink-500 via-red-500 hover:via-red-500 hover:to-orange-400 to-red-400 text-white font-lato text-sm w-full font-semibold py-2.5 px-4 rounded-md mt-5">
           Enviar
         </button>
       </fieldset>
