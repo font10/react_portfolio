@@ -18,6 +18,7 @@ export const ContactForm = () => {
 
   const onSubmit = async (formInputs) => {
     const res = await sendEmailService(formInputs)
+    console.log(res)
     if(res.status === 200) {
       getToast( 'success', res?.data?.message)
       reset()
